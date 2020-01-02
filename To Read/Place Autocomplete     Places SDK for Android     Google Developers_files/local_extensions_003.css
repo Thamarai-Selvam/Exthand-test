@@ -1,0 +1,130 @@
+p.refsubhead {
+  font-size: 1.05em;
+  font-weight: bold;
+  color: #404040;
+  margin-bottom: -.25em;
+  margin-top: .5em;
+}
+
+.authornote {
+  font-size: 1em;
+  font-weight: bold;
+  color: red;
+}
+
+dl.apireference {
+  padding-bottom: .5em;
+}
+
+dl.apireference dt {
+  font-weight: normal;
+  font-style: none;
+  margin-top: .33em;
+  margin-left: 1.5em;
+  font-size: 1.15em;
+}
+
+dl.apireference dd {
+  margin-left: 2.5em;
+  margin-bottom: 1.5em;
+}
+
+dl.apireference .type {
+  font-family: "Droid Sans Mono", monospace;
+}
+
+dl.apireference .itemname {
+  font-family: "Droid Sans Mono", monospace;
+  color:black;
+}
+
+dl.apireference .argname {
+  font-family: "Droid Sans Mono", monospace;
+  font-size: .95em;
+  letter-spacing: -.5px;
+  color:black;
+}
+
+dl.apireference .argdefault {
+  font-family: "Droid Sans Mono", monospace;
+}
+
+
+/* table containing sample's <pre> tag */
+.codesnippet {
+  border: none;
+  margin: 0px;
+  width: 100%;
+}
+
+.codesnippet td {
+  border: 0px;
+  background: none;
+  padding: 0px;
+}
+
+/* pre element with line numbers */
+.line-no {
+  text-align: center;
+}
+
+/*
+ * Styles for inline code samples
+ */
+
+/* Container for tab content section */
+.content-container {
+  border: 1px solid #CCCCCC;
+  padding: 15px;
+  padding-bottom: 0px;
+  background-color: #FAFAFA;
+}
+/* Container for tab header section */
+ul.ui-tabs-nav {
+  background: #FFFFFF none repeat scroll 0%;
+  list-style: none;
+  margin: 0 0 4px 0;
+  padding: 0px;
+}
+/* Sample tab headers */
+ul.ui-tabs-nav li {
+  border: 1px solid #cccccc;
+  border-bottom: none;
+  background-color: #E5ECF9;
+  display: inline;
+  margin: 0;
+  padding: 5px;
+}
+/* Selected tab header */
+ul.ui-tabs-nav li.ui-tabs-selected {
+  background-color: #FAFAFA;
+  border-bottom: solid 1px #FAFAFA;
+  font-weight: bold;
+}
+/* Links of tab headers */
+ul.ui-tabs-nav a {
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+/* Spans of tab headers */
+ul.ui-tabs-nav a, ul.ui-tabs-nav a span {
+  color: black;
+  display: inline;
+}
+/* To hide content */
+.ui-tabs-hide {
+  display: none;
+}
+
+/* Make tabs start on the left */
+.ui-datasection-main .selector {
+ text-align: left;
+}
+
+.button-run-edit * {
+  /* undo prettyprint color and style */
+  font-weight: bold !important;
+  font-style: normal !important;
+  color: #fff !important;
+}
